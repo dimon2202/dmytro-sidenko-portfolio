@@ -26,9 +26,9 @@ export const projects: Project[] = [
       github: "https://github.com/dimon2202/real-estate-website",
     },
     images: [
-      { file: "home.png", width: 1440, height: 900 },
-      { file: "listings.png", width: 1440, height: 900 },
-      { file: "listing.png", width: 1440, height: 900 },
+      { file: "home.png", width: 1918, height: 873 },
+      { file: "listings.webp", width: 1920, height: 878 },
+      { file: "listing.webp", width: 1902, height: 874 },
     ],
   },
   {

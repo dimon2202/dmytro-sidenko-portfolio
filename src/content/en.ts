@@ -89,8 +89,8 @@ export const en: LocalizedContent = {
       ],
       imageAlts: {
         "home.png": "Real estate platform home page with the property search form",
-        "listings.png": "Listing results next to a map with property pins",
-        "listing.png": "Property detail page with image gallery and nearby places",
+        "listings.webp": "Listing results next to a map with property pins",
+        "listing.webp": "Property detail page with image gallery and nearby places",
       },
       metaDescription:
         "Case study: a full-stack real estate platform built with React, Node.js, Express, Prisma, MongoDB and Socket.IO, with map search and real-time messaging.",

@@ -8,9 +8,8 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..", "public", "images", "projects");
 
 /** [slug, file, url, extra wait in ms, optional page action] */
+// Real estate screenshots are captured by hand: the Render free tier often shows its wake-up page.
 const shots = [
-  ["real-estate-platform", "home.png", "https://real-estate-website-client-rob5.onrender.com/", 6000],
-  ["real-estate-platform", "listings.png", "https://real-estate-website-client-rob5.onrender.com/list", 8000],
   ["pharmacovigilance-website", "home.png", "https://sokolapv.com/", 3000],
   ["pharmacovigilance-website", "service.png", "https://sokolapv.com/services/pv-audits/", 3000],
   ["pharmacovigilance-website", "education.png", "https://sokolapv.com/education/", 3000],

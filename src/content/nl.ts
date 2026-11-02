@@ -88,8 +88,8 @@ export const nl: LocalizedContent = {
       ],
       imageAlts: {
         "home.png": "Startpagina van het vastgoedplatform met het zoekformulier",
-        "listings.png": "Zoekresultaten naast een kaart met pins per woning",
-        "listing.png": "Woningpagina met fotogalerij en voorzieningen in de buurt",
+        "listings.webp": "Zoekresultaten naast een kaart met pins per woning",
+        "listing.webp": "Woningpagina met fotogalerij en voorzieningen in de buurt",
       },
       metaDescription:
         "Case study: een full-stack vastgoedplatform gebouwd met React, Node.js, Express, Prisma, MongoDB en Socket.IO, met kaartzoeken en realtime berichten.",
