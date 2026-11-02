@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "siteName": "Dmytro Sidenko — Portfolio",
+    "homeTitle": "Dmytro Sidenko | Full-Stack Developer — React, Next.js & Node.js",
+    "homeDescription": "Full-Stack Developer based in the Netherlands, building modern web applications with React, Next.js, TypeScript, and Node.js.",
+    "caseStudy": "Case study",
+    "ogTagline": "Full-Stack Developer · React, Next.js & Node.js",
+    "ogLocation": "Ede, Netherlands"
+  },
+  "nav": {
+    "skipToContent": "Skip to content",
+    "main": "Main navigation",
+    "home": "Dmytro Sidenko — home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "downloadCv": "Download CV",
+    "cv": "CV"
+  },
+  "language": {
+    "label": "Language",
+    "switchTo": "Bekijk deze pagina in het Nederlands",
+    "en": "English",
+    "nl": "Nederlands"
+  },
+  "theme": {
+    "toDark": "Switch to dark theme",
+    "toLight": "Switch to light theme"
+  },
+  "hero": {
+    "role": "Full-Stack Developer",
+    "headline": "Building digital products from frontend to backend.",
+    "intro": "I’m Dmytro, a Full-Stack Developer based in the Netherlands. I build modern web applications using React, Next.js, TypeScript, and Node.js, with a strong focus on architecture, performance, and maintainable code.",
+    "location": "Ede, Netherlands",
+    "available": "Open to opportunities",
+    "viewWork": "View my work",
+    "downloadCv": "Download CV",
+    "coreStack": "Core stack"
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "End-to-end ownership, from the data model to the last pixel.",
+    "p1": "I have spent the last three years building web applications in production: two years as a front-end developer on an AI-powered crypto trading platform, and before that as a full-stack engineer on platforms for educational and humanitarian initiatives.",
+    "p2": "Alongside that work I build complete applications on my own — designing the API and the database, handling authentication, writing the frontend and deploying it. I care about clear architecture and code that the next developer can understand.",
+    "p3": "I use AI tools such as Claude Code and ChatGPT as part of a workflow I stay in control of: they speed up analysis, debugging and repetitive work, and I review and validate everything they produce.",
+    "focusTitle": "What I work on",
+    "focus": {
+      "apps": "Complete web applications",
+      "frontBack": "Frontend and backend development",
+      "api": "API design and integrations",
+      "data": "Database modelling",
+      "auth": "Authentication and authorisation",
+      "ship": "Testing and deployment",
+      "problems": "Solving engineering problems",
+      "ai": "AI-assisted, developer-led workflow"
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "heading": "Technologies I work with",
+    "intro": "The core stack I use every day comes first. The rest are tools I have used in projects or at work.",
+    "core": "Core stack",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "devops": "DevOps and tools",
+      "testing": "Testing and quality",
+      "ai": "AI and productivity"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "heading": "Selected work",
+    "intro": "Real products, each with a case study covering the architecture, decisions and trade-offs behind it.",
+    "kind": {
+      "personal": "Personal project",
+      "client": "Client website"
+    },
+    "role": "Role",
+    "stack": "Stack",
+    "live": "Live site",
+    "github": "Source code",
+    "caseStudy": "Read case study",
+    "caseStudyFor": "Read the {title} case study",
+    "previewPending": "Screenshot coming soon"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "heading": "Professional experience",
+    "present": "Present",
+    "stack": "Technologies"
+  },
+  "howIWork": {
+    "eyebrow": "Process",
+    "heading": "How I work",
+    "steps": {
+      "understand": {
+        "title": "Understand the problem",
+        "body": "Analyse the requirements, the users’ needs and the business context before writing code."
+      },
+      "design": {
+        "title": "Design the solution",
+        "body": "Plan the application architecture, API boundaries, data models and technical choices."
+      },
+      "build": {
+        "title": "Build and implement",
+        "body": "Develop frontend and backend functionality with the technologies that fit the problem."
+      },
+      "ai": {
+        "title": "AI-assisted development",
+        "body": "Use Claude Code and ChatGPT for code analysis, implementation support, debugging and refactoring. I stay responsible for reviewing and validating the output."
+      },
+      "ship": {
+        "title": "Test and deploy",
+        "body": "Verify the functionality, keep code quality high, run the tests and deploy the application."
+      }
+    }
+  },
+  "education": {
+    "eyebrow": "Education",
+    "heading": "Education",
+    "present": "Present"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Have a project in mind or looking for a Full-Stack Developer?",
+    "body": "I’m based in Ede and open to roles across the Netherlands. The quickest way to reach me is by email.",
+    "sendEmail": "Send an email",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "cv": "Download CV"
+  },
+  "footer": {
+    "role": "Full-Stack Developer",
+    "location": "Ede, Netherlands",
+    "rights": "© {year} Dmytro Sidenko",
+    "languages": "Languages"
+  },
+  "caseStudy": {
+    "back": "All projects",
+    "overview": "Overview",
+    "purpose": "Purpose",
+    "role": "My role and responsibilities",
+    "architecture": "Architecture and technology",
+    "stack": "Technology stack",
+    "features": "Main features",
+    "decisions": "Technical decisions",
+    "challenges": "Challenges and solutions",
+    "outcomes": "Results",
+    "gallery": "Screenshots",
+    "galleryPending": "Screenshots of this project will be added soon. In the meantime, the links below lead to the project itself.",
+    "links": "Links",
+    "live": "Visit live site",
+    "github": "View source on GitHub",
+    "type": "Type",
+    "year": "Year",
+    "next": "Next project",
+    "breadcrumb": "Breadcrumb"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has moved.",
+    "home": "Back to the home page"
+  },
+  "external": "(opens in a new tab)"
+}

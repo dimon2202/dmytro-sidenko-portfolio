@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Design tokens. Light is the default theme. */
+:root {
+  --bg: #f5f4f0;
+  --surface: #ffffff;
+  --surface-2: #efeee9;
+  --fg: #17191c;
+  /* #70747b from the palette is 4.3:1 on --bg; this shade keeps small text above WCAG AA. */
+  --muted: #62666d;
+  --muted-soft: #70747b;
+  --accent: #4169e1;
+  /* Accent for small text and links, 5.8:1 on --bg. */
+  --accent-text: #2f55c8;
+  --accent-soft: rgb(65 105 225 / 0.1);
+  --border: #e5e4df;
+  --border-strong: #d6d5cf;
+  --grid-line: rgb(23 25 28 / 0.045);
+  --shadow: 0 1px 2px rgb(23 25 28 / 0.04), 0 8px 24px -12px rgb(23 25 28 / 0.12);
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #17191d;
+  --surface: #202329;
+  --surface-2: #252d3a;
+  --fg: #f5f5f5;
+  --muted: #a1a1aa;
+  --muted-soft: #8b8b94;
+  --accent: #8fb5ff;
+  --accent-text: #8fb5ff;
+  --accent-soft: rgb(143 181 255 / 0.12);
+  --border: #2c3038;
+  --border-strong: #3a3f49;
+  --grid-line: rgb(245 245 245 / 0.04);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-muted-soft: var(--muted-soft);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-accent-soft: var(--accent-soft);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: var(--shadow);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Anchored sections clear the sticky header. */
+  [id] {
+    scroll-margin-top: 5.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Smooth colour change only while the theme is being toggled, so page load never animates. */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition:
+    background-color 300ms ease,
+    border-color 300ms ease,
+    color 300ms ease,
+    fill 300ms ease !important;
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+/* Hero entrance: pure CSS so it works before hydration and without JavaScript. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes grid-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 48px 48px;
+  }
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 35%, #000 30%, transparent 75%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: var(--rise-delay, 0ms);
+  }
+
+  .hero-grid {
+    animation: grid-drift 24s linear infinite;
+  }
+}

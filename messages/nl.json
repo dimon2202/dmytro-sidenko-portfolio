@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "siteName": "Dmytro Sidenko — Portfolio",
+    "homeTitle": "Dmytro Sidenko | Full-stack developer — React, Next.js en Node.js",
+    "homeDescription": "Full-stack developer in Nederland die moderne webapplicaties bouwt met React, Next.js, TypeScript en Node.js.",
+    "caseStudy": "Case study",
+    "ogTagline": "Full-stack developer · React, Next.js en Node.js",
+    "ogLocation": "Ede, Nederland"
+  },
+  "nav": {
+    "skipToContent": "Naar de inhoud",
+    "main": "Hoofdnavigatie",
+    "home": "Dmytro Sidenko — home",
+    "about": "Over mij",
+    "skills": "Vaardigheden",
+    "projects": "Projecten",
+    "experience": "Ervaring",
+    "contact": "Contact",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "downloadCv": "Download cv",
+    "cv": "Cv"
+  },
+  "language": {
+    "label": "Taal",
+    "switchTo": "View this page in English",
+    "en": "English",
+    "nl": "Nederlands"
+  },
+  "theme": {
+    "toDark": "Donker thema inschakelen",
+    "toLight": "Licht thema inschakelen"
+  },
+  "hero": {
+    "role": "Full-stack developer",
+    "headline": "Digitale producten bouwen, van frontend tot backend.",
+    "intro": "Ik ben Dmytro, full-stack developer in Nederland. Ik bouw moderne webapplicaties met React, Next.js, TypeScript en Node.js, met veel aandacht voor architectuur, performance en onderhoudbare code.",
+    "location": "Ede, Nederland",
+    "available": "Open voor nieuwe kansen",
+    "viewWork": "Bekijk mijn werk",
+    "downloadCv": "Download cv",
+    "coreStack": "Kernstack"
+  },
+  "about": {
+    "eyebrow": "Over mij",
+    "heading": "Eigenaarschap van begin tot eind, van datamodel tot de laatste pixel.",
+    "p1": "De afgelopen drie jaar heb ik webapplicaties in productie gebouwd: twee jaar als front-end developer aan een AI-gedreven platform voor cryptohandel, en daarvoor als full-stack engineer aan platforms voor educatieve en humanitaire initiatieven.",
+    "p2": "Daarnaast bouw ik zelfstandig complete applicaties: ik ontwerp de API en de database, regel de authenticatie, schrijf de frontend en zet alles live. Ik hecht aan een heldere architectuur en code die de volgende developer zonder moeite begrijpt.",
+    "p3": "AI-tools zoals Claude Code en ChatGPT gebruik ik binnen een werkwijze waarin ik zelf de regie houd: ze versnellen analyse, debugging en repetitief werk, en ik controleer en valideer alles wat ze opleveren.",
+    "focusTitle": "Waar ik aan werk",
+    "focus": {
+      "apps": "Complete webapplicaties",
+      "frontBack": "Frontend- en backendontwikkeling",
+      "api": "API-ontwerp en integraties",
+      "data": "Datamodellering",
+      "auth": "Authenticatie en autorisatie",
+      "ship": "Testen en deployment",
+      "problems": "Technische problemen oplossen",
+      "ai": "AI-ondersteund werken, met de developer aan het roer"
+    }
+  },
+  "skills": {
+    "eyebrow": "Vaardigheden",
+    "heading": "Technologieën waarmee ik werk",
+    "intro": "Eerst de kernstack die ik dagelijks gebruik. Daarna tools die ik in projecten of op het werk heb ingezet.",
+    "core": "Kernstack",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "devops": "DevOps en tools",
+      "testing": "Testen en kwaliteit",
+      "ai": "AI en productiviteit"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projecten",
+    "heading": "Geselecteerd werk",
+    "intro": "Echte producten, elk met een case study over de architectuur, keuzes en afwegingen erachter.",
+    "kind": {
+      "personal": "Eigen project",
+      "client": "Website voor een klant"
+    },
+    "role": "Rol",
+    "stack": "Stack",
+    "live": "Live site",
+    "github": "Broncode",
+    "caseStudy": "Lees de case study",
+    "caseStudyFor": "Lees de case study over {title}",
+    "previewPending": "Screenshot volgt binnenkort"
+  },
+  "experience": {
+    "eyebrow": "Ervaring",
+    "heading": "Werkervaring",
+    "present": "Heden",
+    "stack": "Technologieën"
+  },
+  "howIWork": {
+    "eyebrow": "Werkwijze",
+    "heading": "Hoe ik werk",
+    "steps": {
+      "understand": {
+        "title": "Het probleem begrijpen",
+        "body": "Eisen, behoeften van gebruikers en de zakelijke context analyseren voordat ik code schrijf."
+      },
+      "design": {
+        "title": "De oplossing ontwerpen",
+        "body": "De applicatiearchitectuur, API-grenzen, datamodellen en technische keuzes uitwerken."
+      },
+      "build": {
+        "title": "Bouwen en implementeren",
+        "body": "Frontend- en backendfunctionaliteit ontwikkelen met de technologie die bij het probleem past."
+      },
+      "ai": {
+        "title": "AI-ondersteund ontwikkelen",
+        "body": "Claude Code en ChatGPT inzetten voor codeanalyse, ondersteuning bij implementatie, debugging en refactoring. De controle en validatie van de uitkomst blijft mijn verantwoordelijkheid."
+      },
+      "ship": {
+        "title": "Testen en live zetten",
+        "body": "De functionaliteit controleren, de codekwaliteit bewaken, tests draaien en de applicatie uitrollen."
+      }
+    }
+  },
+  "education": {
+    "eyebrow": "Opleiding",
+    "heading": "Opleiding",
+    "present": "Heden"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Een project in gedachten of op zoek naar een full-stack developer?",
+    "body": "Ik woon in Ede en sta open voor functies in heel Nederland. Mailen is de snelste manier om me te bereiken.",
+    "sendEmail": "Stuur een e-mail",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "cv": "Download cv"
+  },
+  "footer": {
+    "role": "Full-stack developer",
+    "location": "Ede, Nederland",
+    "rights": "© {year} Dmytro Sidenko",
+    "languages": "Talen"
+  },
+  "caseStudy": {
+    "back": "Alle projecten",
+    "overview": "Overzicht",
+    "purpose": "Doel",
+    "role": "Mijn rol en verantwoordelijkheden",
+    "architecture": "Architectuur en technologie",
+    "stack": "Technologiestack",
+    "features": "Belangrijkste functies",
+    "decisions": "Technische keuzes",
+    "challenges": "Uitdagingen en oplossingen",
+    "outcomes": "Resultaten",
+    "gallery": "Screenshots",
+    "galleryPending": "Screenshots van dit project volgen binnenkort. Via de links hieronder bekijk je het project zelf.",
+    "links": "Links",
+    "live": "Bekijk de live site",
+    "github": "Bekijk de broncode op GitHub",
+    "type": "Type",
+    "year": "Jaar",
+    "next": "Volgend project",
+    "breadcrumb": "Kruimelpad"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "body": "De pagina die je zoekt bestaat niet of is verplaatst.",
+    "home": "Terug naar de startpagina"
+  },
+  "external": "(opent in een nieuw tabblad)"
+}
